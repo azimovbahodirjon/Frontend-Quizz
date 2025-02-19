@@ -5,9 +5,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Quiz from "./pages/Quiz";
 import Home from "./pages/Home";
 import ErrorPage from "./pages/ErrorPage";
+import MainLayout from "./layout/MainLayout";
 
 // layouts
-import MainLayout from "./layout/MainLayout";
 
 function App() {
   const router = createBrowserRouter([
